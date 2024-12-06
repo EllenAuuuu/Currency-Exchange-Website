@@ -1,0 +1,13 @@
+.aboutcontainer {
+  margin-left: 150px;
+  margin-right: 150px;
+  color: white;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .aboutcontainer {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

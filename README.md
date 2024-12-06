@@ -68,3 +68,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+1. Go to the landing page, then navigate to other pages
+
+2. Show that your page/view has a proper title in the title bar
+
+3. Show navigation menu
+
+4. Show the ability to perform a search
+
+5. Show all the items with their associated detail
+
+6. Show a table of items, including sorting and paging, or a list of items
+
+7. Show the ability to limit items by certain category .
+
+   \*\*\*Currency do not have category, useing table to show open, high, low, close
+
+8. Show the ability to limit item from a particular date or date range
+
+9. Show a graph, including interacting with graph
+
+10. Show the ability to get information for a particular item
+
+11. Show possible errors and error handling
+
+12. Show your application is responsive

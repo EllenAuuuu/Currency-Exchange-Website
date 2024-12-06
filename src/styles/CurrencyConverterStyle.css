@@ -1,0 +1,172 @@
+.currency-converter {
+  border: 1px solid white;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  min-height: 20rem;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  position: relative;
+  width: 780px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.converter-heading {
+  display: block;
+  font-size: 1.5em;
+  margin-block-end: 1.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.converter-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: -16px;
+  width: calc(100% + 16px);
+  text-align: center;
+}
+
+.amountInput {
+  width: 680px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.fromtoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 780px;
+}
+
+.amount {
+  text-align: center;
+  margin: auto;
+}
+
+.from1 {
+  width: 300px;
+}
+
+.converter-switch {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.to1 {
+  width: 300px;
+}
+
+.amountbutton {
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+@media screen and (max-width: 800px) {
+  .currency-converter {
+    border: 1px solid white;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    min-height: 20rem;
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    position: relative;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+  }
+
+  .fromtoto {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 500px;
+  }
+  .converter-container {
+    justify-content: center;
+  }
+
+  .amountInput {
+    width: 450px;
+
+    .from1 {
+      width: 200px;
+    }
+
+    .converter-switch {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .to1 {
+      width: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .currency-converter {
+    border: 1px solid white;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    min-height: 20rem;
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    position: relative;
+    width: calc(100% + 16px px);
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+  }
+
+  .converter-container {
+    justify-content: center;
+  }
+
+  .fromtoto {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: auto;
+    flex-wrap: inherit;
+  }
+  .amountInput {
+    width: auto;
+  }
+
+  .from {
+    width: auto;
+  }
+
+  .converter-switch {
+    margin-left: 5px;
+    margin-right: 5px;
+    flex: 1;
+    max-width: 150px;
+    margin: 5px;
+  }
+
+  .to {
+    width: auto;
+  }
+}

@@ -1,0 +1,33 @@
+.contentAll {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  border: 1px solid white;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+  text-align: center;
+  min-height: 20rem;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  position: relative;
+  width: 780px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.contentAll .ag-theme-balham {
+  margin-top: 20px;
+}
+
+.searchAll {
+  margin-top: 20px;
+  width: 500px;
+}
+
+.title {
+  color: white;
+}
