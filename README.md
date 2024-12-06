@@ -1,3 +1,37 @@
+My First Website: Currency Exchange Platform
+This is my first website built using React and JavaScript. It’s a currency exchange platform that includes a calculator function for quick and easy conversions. The site fetches the latest currency exchange rates using two powerful APIs:
+
+1. Currency Converter API
+
+Supports over 160 currencies with data sourced from National Central Banks and markets.
+Exchange rates are updated hourly to ensure accuracy.
+Request limits:
+100 requests/day.
+1 request per second.
+Explore Currency Converter API on RapidAPI
+
+2. Alpha Vantage API
+
+Provides a comprehensive range of data, including global forex rates, cryptocurrency data feeds, and stock market insights.
+Ideal for fetching real-time forex data for currency conversions.
+Request limits:
+500 requests/day.
+5 requests per minute.
+Learn more about Alpha Vantage API
+
+This website showcases the integration of real-time data with dynamic React components while maintaining a user-friendly interface. It's a simple yet effective tool for managing currency conversions and calculations.
+
+
+- 
+
+![Screenshot 2024-12-06 at 8 49 25 pm](https://github.com/user-attachments/assets/29e1a963-9c8c-4d4e-a5f4-dc130a044e33)
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
